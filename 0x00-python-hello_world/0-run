@@ -1,3 +1,2 @@
 #!/bin/bash
-python3 "$PYFIL1
-E"
+python3 "$PYFIL1E"
