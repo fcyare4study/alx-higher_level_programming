@@ -49,7 +49,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	else
 	{
 	while (current->next != NULL)
-	currrent = current->next;
+	current = current->next;
 	current->next = new;
 	}
 
@@ -70,4 +70,5 @@ void free_listint(listint_t *head)
 	current = head;
 	head = head->next;
 	free(current);
+}
 }
